@@ -1,0 +1,23 @@
+header {
+    margin: 10px;
+    height: 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 10px;
+}
+
+header ul {
+    list-style: none;
+    font-weight: 900;
+    margin-right: 50px;
+}
+
+
+.serie-title {
+    cursor: pointer;
+    transition: 1s;
+}
+
+.serie-title:hover {
+    background-color: black;
+    color: rgb(237, 173, 24);
+}

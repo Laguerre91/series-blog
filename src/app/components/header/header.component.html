@@ -1,0 +1,21 @@
+<header class="nav-bar">
+    <ul class="d-flex justify-content-between align-items-center mr-5">
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Series
+            </a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" [routerLink]="['/recomended']">RECOMENDED</a></li>
+                <li><a class="dropdown-item" [routerLink]="['/drama']">DRAMA</a></li>
+                <li><a class="dropdown-item" href="#">COMEDY</a></li>
+                <li><a class="dropdown-item" href="#">NETFLIX</a></li>
+                <li><a class="dropdown-item" href="#">HBO</a></li>
+                <li><a class="dropdown-item" href="#">AMAZON</a></li>
+            </ul>
+        </li>
+        <li [routerLink]="['']" class="serie-title"> | SERIES BLOG |</li>
+        <li>
+            <img width="30" src="./assets/img/instagram-logo.png" alt="Instagram Logo">
+        </li>
+    </ul>
+</header>
