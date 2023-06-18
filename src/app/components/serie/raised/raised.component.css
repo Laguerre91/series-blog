@@ -5,15 +5,34 @@
     height: fit-content;
 }
 
+.title-cont {
+    margin: 50px;
+}
+
 h2 {
     font-size: 60px;
 }
 
+.cont-1 {
+    height: fit-content;
+}
+
 .raised_desc {
-    position: absolute;
+    position: relative;
+    bottom: 55px;
+    right: 80px;
     font-size: 35px;
     color: rgb(237, 173, 24);
-    background: rgba(0, 0, 0, 0.856);
+    background: rgba(76, 37, 37, 0.887);
+
+}
+
+.raised_image {
+    position: relative;
+    bottom: 150px;
+    left: 40%;
+    margin: 50px;
+    z-index: -1;
 }
 
 .skew {

@@ -18,7 +18,7 @@ export class OzarkComponent {
       serie_year: 2017,
       serie_img: './assets/img/ozark_img.jpeg',
       serie_img1: './assets/img/ozark_img1.jpeg',
-      platform: 'HBO',
+      platform: 'Netflix',
       genre: 'Drama',
       recomended: false
     }
