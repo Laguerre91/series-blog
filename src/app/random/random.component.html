@@ -1,0 +1,9 @@
+<div class="randomized_box">
+    <button (click)="onRandomize()">
+        <span class="button_top">Click!</span>
+    </button>
+
+    <a [routerLink]="getLinkForRandomName(randomName)">{{randomName}}</a>
+    <p *ngIf="randomName">(
+        Click on the name and I'll tell you more)</p>
+</div>

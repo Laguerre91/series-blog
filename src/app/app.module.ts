@@ -13,6 +13,17 @@ import { IndustryComponent } from './components/serie/industry/industry.componen
 import { DramaComponent } from './drama/drama.component';
 import { RaisedComponent } from './components/serie/raised/raised.component';
 import { OzarkComponent } from './components/serie/ozark/ozark.component';
+import { RandomComponent } from './random/random.component';
+import { CrazyComponent } from './components/serie/crazy/crazy.component';
+import { SwarmComponent } from './components/serie/swarm/swarm.component';
+import { LittleliesComponent } from './components/serie/littlelies/littlelies.component';
+import { KimmyComponent } from './components/serie/kimmy/kimmy.component';
+import { FleaComponent } from './components/serie/flea/flea.component';
+import { SinnerComponent } from './components/serie/sinner/sinner.component';
+import { BetterComponent } from './components/serie/better/better.component';
+import { PleaseComponent } from './components/serie/please/please.component';
+
+
 
 
 @NgModule({
@@ -27,7 +38,17 @@ import { OzarkComponent } from './components/serie/ozark/ozark.component';
     IndustryComponent,
     DramaComponent,
     RaisedComponent,
-    OzarkComponent
+    OzarkComponent,
+    RandomComponent,
+    CrazyComponent,
+    SwarmComponent,
+    LittleliesComponent,
+    KimmyComponent,
+    FleaComponent,
+    SinnerComponent,
+    BetterComponent,
+    PleaseComponent,
+
   ],
   imports: [
     BrowserModule,

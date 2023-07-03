@@ -3,7 +3,7 @@
     padding: 40px;
     width: 100%;
     height: fit-content;
-} 
+}
 
 .title-cont {
     margin-top: 55px;
@@ -15,17 +15,27 @@ h2 {
 
 .ind_description {
     position: absolute;
-    left: 45%;
+    left: 40%;
     font-size: 35px;
     color: rgb(237, 173, 24);
     background: rgba(0, 0, 0, 0.856);
+}
+
+.img_1 {
+    position: relative;
+    left: 20%;
+    width: 140%;
+}
+
+.img_2 {
+    width: 100%;
 }
 
 .ind_image {
     width: fit-content;
     position: relative;
     left: 35%;
-    bottom: 100px;
+    bottom: 150px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
@@ -47,4 +57,30 @@ h2 {
     height: 80px;
     background-color: rgb(0, 0, 0);
     transform: skewY(10deg);
+}
+
+iframe {
+    width: 100%;
+    height: 415px;
+}
+
+@media only screen and (max-width : 900px) {
+    .ind_description {
+        font-size: 15px;
+        left: 45%;
+    }
+
+    .img_1 {
+        left: 15%;
+    }
+
+    .ind_image {
+        bottom: 25px;
+        left: 10%;
+    }
+
+    .cont {
+        position: relative;
+        right: 10%;
+    }
 }
