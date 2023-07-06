@@ -15,8 +15,8 @@ export class SuccessionComponent {
       serie_name: 'Succession',
       serie_year: 2019,
       serie_description: 'The saga of a fictional American family that owns an international media conglomerate, which is not only rich and powerful, but also its members seek power and to run the business their way, despite the established succession plan.',
-      serie_img: './assets/img/suc-tom.jpeg',
-      serie_img1: './assets/img/suc-1.jpeg',
+      serie_img: './assets/img/succession/suc-tom.jpeg',
+      serie_img1: './assets/img/succession/suc-1.jpeg',
       platform: 'HBO',
       genre: 'drama',
       recomended: true

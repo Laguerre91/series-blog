@@ -16,8 +16,8 @@ export class RaisedComponent {
       serie_name: 'Raised by Wolves',
       serie_description: 'Two androids have the important task of raising human children on a mysterious virgin planet. When the human colony begins to tear apart due to religious differences, the androids learn that humanity´s beliefs are treacherous.',
       serie_year: 2020,
-      serie_img: './assets/img/raised_img.jpeg',
-      serie_img1: './assets/img/raised_img1.jpeg',
+      serie_img: './assets/img/raised/raised_img.jpeg',
+      serie_img1: './assets/img/raised/raised_img1.jpeg',
       platform: 'Amazon Prime',
       genre: 'Drama',
       recomended: false
