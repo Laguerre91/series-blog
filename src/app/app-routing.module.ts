@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+
 import { HomeComponent } from './home/home.component';
 import { SeriesComponent } from './series/series.component';
 import { DramaComponent } from './drama/drama.component';
@@ -12,6 +13,7 @@ import { LittleliesComponent } from './components/serie/littlelies/littlelies.co
 import { SwarmComponent } from './components/serie/swarm/swarm.component';
 import { KimmyComponent } from './components/serie/kimmy/kimmy.component';
 import { RandomComponent } from './random/random.component';
+import { ComedyComponent } from './comedy/comedy.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -25,7 +27,8 @@ const routes: Routes = [
   { path: 'crazy', component: CrazyComponent },
   { path: 'lies', component: LittleliesComponent },
   { path: 'swarm', component: SwarmComponent },
-  { path: 'kimmy', component: KimmyComponent }
+  { path: 'kimmy', component: KimmyComponent },
+  { path: 'comedy', component: ComedyComponent }
 ];
 
 @NgModule({

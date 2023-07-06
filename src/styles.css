@@ -1,15 +1,22 @@
 :root {
-    --font-size_desc: 2rem;
+    /*BACKGROUNDS*/
+    --general_bg: #000;
     --background_desc: rgba(76, 37, 37, 0.887);
-    --color_desc: rgb(237, 173, 24);
+
+    /*FONTS AND VIDEOS SIZE*/
+    --font-size_desc: 2rem;
     --trailer-size_width: 80%;
     --trailer-size_height: 60vh;
 
-    /*
-    RESPONSIVE VAR
-    */
+    /*FONTS COLORS*/
+    --color_desc: rgb(237, 173, 24);
 
+    /*RESPONSIVE VAR*/
     --resp_font-size: 1.2rem;
+
+    /*BOX SHADOWS*/
+    --img_shadow-yellow: 5px 10px yellow;
+    --img_shadow-black: 5px 10px black;
 }
 
 

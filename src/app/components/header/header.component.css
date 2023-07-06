@@ -11,6 +11,11 @@ header ul {
     margin-right: 50px;
 }
 
+a {
+    text-decoration: none;
+    color: #000;
+}
+
 
 .serie-title {
     cursor: pointer;

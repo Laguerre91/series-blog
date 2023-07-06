@@ -1,8 +1,8 @@
 .everything {
-    background-color: black;
+    background-color: var(--general_bg);
     width: 100%;
     height: fit-content;
-    color: rgb(237, 173, 24);
+    color: var(--color_desc);
     padding: 40px;
 }
 
@@ -12,10 +12,12 @@ h2 {
 
 .suc_image_ {
     width: 130%;
+    box-shadow: var(--img_shadow-yellow);
 }
 
 .suc_image_1 {
     width: 70%;
+    box-shadow: var(--img_shadow-yellow);
 }
 
 .suc_image {
@@ -65,7 +67,7 @@ iframe {
     }
 
     .suc_description {
-        font-size: 20px;
+        font-size: var(--resp_font-size);
         bottom: 30px;
         width: 90%;
         left: 5%;

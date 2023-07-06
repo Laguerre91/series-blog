@@ -7,7 +7,7 @@
             <ul class="dropdown-menu">
                 <li><a class="dropdown-item" [routerLink]="['/recomended']">RECOMENDED</a></li>
                 <li><a class="dropdown-item" [routerLink]="['/drama']">DRAMA</a></li>
-                <li><a class="dropdown-item" href="#">COMEDY</a></li>
+                <li><a class="dropdown-item" [routerLink]="['/comedy']">COMEDY</a></li>
                 <li><a class="dropdown-item" href="#">NETFLIX</a></li>
                 <li><a class="dropdown-item" href="#">HBO</a></li>
                 <li><a class="dropdown-item" href="#">AMAZON</a></li>
@@ -15,7 +15,7 @@
         </li>
         <li [routerLink]="['']" class="serie-title"> | SERIES BLOG |</li>
         <li>
-            <img width="30" src="./assets/img/instagram-logo.png" alt="Instagram Logo">
+            <a [routerLink]="['/random']">RANDOM</a>
         </li>
     </ul>
 </header>

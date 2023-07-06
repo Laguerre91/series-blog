@@ -22,6 +22,7 @@ import { FleaComponent } from './components/serie/flea/flea.component';
 import { SinnerComponent } from './components/serie/sinner/sinner.component';
 import { BetterComponent } from './components/serie/better/better.component';
 import { PleaseComponent } from './components/serie/please/please.component';
+import { ComedyComponent } from './comedy/comedy.component';
 
 
 
@@ -48,7 +49,7 @@ import { PleaseComponent } from './components/serie/please/please.component';
     SinnerComponent,
     BetterComponent,
     PleaseComponent,
-
+    ComedyComponent,
   ],
   imports: [
     BrowserModule,

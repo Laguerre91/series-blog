@@ -21,10 +21,12 @@ h2 {
 
 .img_1 {
     width: 200%;
+    box-shadow: var(--img_shadow-yellow);
 }
 
 .img_2 {
     width: 120%;
+    box-shadow: var(--img_shadow-yellow);
 }
 
 .oz_description {
