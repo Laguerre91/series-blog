@@ -23,6 +23,7 @@ import { SinnerComponent } from './components/serie/sinner/sinner.component';
 import { BetterComponent } from './components/serie/better/better.component';
 import { PleaseComponent } from './components/serie/please/please.component';
 import { ComedyComponent } from './comedy/comedy.component';
+import { CardComponent } from './components/card/card.component';
 
 
 
@@ -50,6 +51,7 @@ import { ComedyComponent } from './comedy/comedy.component';
     BetterComponent,
     PleaseComponent,
     ComedyComponent,
+    CardComponent,
   ],
   imports: [
     BrowserModule,

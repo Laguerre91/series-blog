@@ -15,8 +15,60 @@
     --resp_font-size: 1.2rem;
 
     /*BOX SHADOWS*/
-    --img_shadow-yellow: 5px 10px yellow;
+    --img_shadow-yellow: 5px 10px rgb(255, 191, 0);
     --img_shadow-black: 5px 10px black;
+
+
+    /**********CARD COMPONENT CSS*************/
+
+    /*a*/
+    --text-decoration: none;
+
+    /*card*/
+
+    --card-width: 250px;
+    --card-height: 314px;
+    --card-margin: 0 auto;
+    --card-background-color: #011522;
+    --card-border-radius: 8px;
+    --card-box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    --card-color: var(--color_desc);
+    --card-cursor: pointer;
+
+    /*tools*/
+
+    --tools-display: flex;
+    --tools-align-items: center;
+    --tools-padding: 9px;
+
+    /*circle*/
+    --circle-padding: 0 4px;
+
+    /*box*/
+    --box-display: inline-block;
+    --box-align-items: center;
+    --box-width: 10px;
+    --box-height: 10px;
+    --box-padding: 1px;
+    --box-border-radius: 50%;
+
+    /*red*/
+    --red-background-color: #ff605c;
+
+    /*yellow*/
+    --yellow-background-color: #ffbd44;
+
+    /*green*/
+    --green-background-color: #00ca4e;
+
+    /*image card*/
+    --image_card-width: 100%;
+    --image_card-height: fit-content;
+
+    /*img*/
+    --img-width: 100%;
+    --img-height: 150px;
+    --img-object-fit: cover;
 }
 
 

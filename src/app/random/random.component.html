@@ -3,7 +3,7 @@
         <span class="button_top">Click!</span>
     </button>
 
-    <a [routerLink]="getLinkForRandomName(randomName)">{{randomName}}</a>
-    <p *ngIf="randomName">(
+    <a [routerLink]="getLink(randomName)" class="text-center">{{randomName}}</a>
+    <p *ngIf="randomName" class="text-center w-50">(
         Click on the name and I'll tell you more)</p>
 </div>

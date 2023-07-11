@@ -3,6 +3,7 @@ export class Random {
         public name: string,
         public platform: string,
         public genre: string,
-        public recomended: boolean
+        public recomended: boolean,
+        public img: string
     ) { }
 }

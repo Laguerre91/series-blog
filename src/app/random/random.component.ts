@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { Random } from '../models/random';
+import { SeriesService } from '../series.service';
+import { Serie } from '../models/serie.model';
 
 @Component({
   selector: 'app-random',
@@ -11,23 +13,23 @@ export class RandomComponent {
   public randoms: Array<Random>;
   public randomName: string = ''
 
-  constructor() {
+  constructor(private seriesService: SeriesService) {
     this.randoms = [
-      new Random('Raised by Wolves', 'Amazon Prime', 'Drama', false),
+      new Random('Raised by Wolves', 'Amazon Prime', 'Drama', false, ''),
 
-      new Random('Succession', 'HBO', 'drama', true),
+      new Random('Succession', 'HBO', 'drama', true, ''),
 
-      new Random('Industry', 'HBO', 'drama', true),
+      new Random('Industry', 'HBO', 'drama', true, ''),
 
-      new Random('Ozark', 'Netflix', 'Drama', true),
+      new Random('Ozark', 'Netflix', 'Drama', true, ''),
 
-      new Random('Unbreakable Kimmy Schmidt', 'Netflix', 'comedy', false),
+      new Random('Unbreakable Kimmy Schmidt', 'Netflix', 'comedy', false, ''),
 
-      new Random('Crazy Ex Girlfriend', 'Netflix', 'comedy', false),
+      new Random('Crazy Ex Girlfriend', 'Netflix', 'comedy', false, ''),
 
-      new Random('Big Little Lies', 'HBO', 'drama', true),
+      new Random('Big Little Lies', 'HBO', 'drama', true, ''),
 
-      new Random('Swarm', 'Amazon Prime', 'Drama', false)
+      new Random('Swarm', 'Amazon Prime', 'Drama', false, '')
     ]
   }
 
@@ -37,24 +39,8 @@ export class RandomComponent {
     this.randomName = randomSerie.name;
   };
 
-  getLinkForRandomName(name: string): string {
-    if (name === 'Ozark') {
-      return '/ozark';
-    } else if (name === 'Raised by Wolves') {
-      return '/raised';
-    } else if (name === 'Industry') {
-      return '/industry'
-    } else if (name === 'Succession') {
-      return '/succession'
-    } else if (name === 'Unbreakable Kimmy Schmidt') {
-      return '/kimmy'
-    } else if (name === 'Crazy Ex Girlfriend') {
-      return '/crazy'
-    } else if (name === 'Big Little Lies') {
-      return '/lies'
-    } else if (name === 'Swarm') {
-      return '/swarm'
-    }
-    return 'Error';
+  getLink(nombreSerie: string): string {
+    return this.seriesService.getLinkForRandomName(nombreSerie);
   }
+
 }
