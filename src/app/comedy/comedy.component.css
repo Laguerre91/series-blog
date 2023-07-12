@@ -1,0 +1,57 @@
+a {
+    text-decoration: var(--text-decoration);
+}
+
+.card {
+    width: var(--card-width);
+    height: var(--card-heigh);
+    margin: var(--card-margin);
+    background-color: var(--card-background-color);
+    border-radius: var(--card-border-radius);
+    box-shadow: var(--card-box-shadow);
+    color: var(--color_desc);
+    cursor: var(--card-cursor);
+
+}
+
+.tools {
+    display: var(--tools-display);
+    align-items: var(--tools-align-items);
+    padding: var(--tools-padding);
+}
+
+.circle {
+    padding: var(--circle-padding);
+}
+
+.box {
+    display: var(--box-display);
+    align-items: var(--box-align-items);
+    width: var(--box-width);
+    height: var(--box-height);
+    padding: var(--box-padding);
+    border-radius: var(--box-border-radius);
+}
+
+.red {
+    background-color: var(--red-background-color);
+}
+
+.yellow {
+    background-color: var(--yellow-background-color);
+}
+
+.green {
+    background-color: var(--green-background-color);
+}
+
+.image-card {
+    width: var(--image_card-width);
+    height: var(--image_card-height);
+}
+
+img {
+    width: var(--img-width);
+    height: var(--img-height);
+    object-fit: var(--img-object-fit);
+}

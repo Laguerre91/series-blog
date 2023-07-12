@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { CardService } from '../services/card.service';
 import { Random } from '../models/random';
-import { SeriesService } from '../series.service';
+
 
 @Component({
   selector: 'app-drama',

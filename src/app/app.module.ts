@@ -24,6 +24,9 @@ import { BetterComponent } from './components/serie/better/better.component';
 import { PleaseComponent } from './components/serie/please/please.component';
 import { ComedyComponent } from './comedy/comedy.component';
 import { CardComponent } from './components/card/card.component';
+import { NetflixComponent } from './netflix/netflix.component';
+import { HboComponent } from './hbo/hbo.component';
+import { AmazonComponent } from './amazon/amazon.component';
 
 
 
@@ -52,6 +55,9 @@ import { CardComponent } from './components/card/card.component';
     PleaseComponent,
     ComedyComponent,
     CardComponent,
+    NetflixComponent,
+    HboComponent,
+    AmazonComponent,
   ],
   imports: [
     BrowserModule,
