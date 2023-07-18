@@ -1,5 +1,5 @@
 <div class="d-flex justify-content-center flex-wrap">
-    <a *ngFor="let card of cards" [routerLink]="getLink(card.name)" class="card m-2 p-2">
+    <a *ngFor="let serie of series" class="card m-2 p-2">
         <div class="tools">
             <div class="circle">
                 <span class="red box"></span>
@@ -13,16 +13,16 @@
         </div>
         <div class="card__content text-center d-block align-items-center m-2">
             <div class="image-card">
-                <img src={{card.img}} alt="image">
+                <img src={{serie.img}} alt="image">
             </div>
             <div class="title-card">
-                <h5>{{card.name}}</h5>
+                <h5>{{serie.name}}</h5>
             </div>
             <div class="platform-card">
-                <h5>{{card.platform}}</h5>
+                <h5>{{serie.platform}}</h5>
             </div>
             <div class="genre-card">
-                <p>{{card.genre}}</p>
+                <p>{{serie.genre}}</p>
             </div>
         </div>
     </a>

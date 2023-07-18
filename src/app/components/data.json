@@ -1,0 +1,56 @@
+[
+    {
+        "name": "Ozark",
+        "platform": "Netflix",
+        "genre": "Drama",
+        "description": "A financier moves his family to the Ozarks. After a money laundering scheme goes wrong, he is forced to repay a debt to a Mexican drug lord to keep his family safe.",
+        "year": 2017,
+        "img1": "./assets/img/ozark/ozark_img.jpeg",
+        "img2": "./assets/img/ozark/ozark_img1.jpeg"
+    },
+    {
+        "name": "Succession",
+        "platform": "HBO",
+        "genre": "Drama",
+        "description": "The saga of a fictional American family that owns an international media conglomerate, which is not only rich and powerful, but also its members seek power and to run the business their way, despite the established succession plan.",
+        "year": 2019,
+        "img1": "./assets/img/succession/suc-tom.jpeg",
+        "img2": "./assets/img/succession/suc-1.jpeg"
+    },
+    {
+        "name": "Crazy Ex Girlfriend",
+        "platform": "Netflix",
+        "genre": "Comedy",
+        "description": "The series tells the story of Rebecca Nora Bunch, a successful and young lawyer who resides in Manhattan and impulsively seeks love. After experiencing a nervous breakdown, she leaves New York to move to West Covina, California. There, she seeks to get back together with her ex-boyfriend Josh, with whom she was at a summer camp.",
+        "year": 2015,
+        "img1": "./assets/img/crazy/crazy_img.jpg",
+        "img2": "./assets/img/crazy/crazy_img1.jpeg"
+    },
+    {
+        "name": "Industry",
+        "platform": "HBO",
+        "genre": "Drama",
+        "description": "An ambitious group of young people strive to climb to the top of London´s financial world. However, conflicts among colleagues, friendship, love, and enemies will arise as soon as they take their first steps.",
+        "year": 2020,
+        "img1": "./assets/img/industry/indus_img.jpeg",
+        "img2": "./assets/img/industry/indus_img1.jpeg"
+    },
+    {
+        "name": "Big Little Lies",
+        "platform": "HBO",
+        "genre": "Drama",
+        "description": "Based on Liane Moriarty`s bestselling book, this subversive, darkly comedic drama series tells the tale of three mothers of first-graders whose seemingly perfect lives unravel to the point of murder. The stellar cast includes Reese Witherspoon, Nicole Kidman, Shailene Woodley, Alexander Skarsgard, Laura Dern, Adam Scott, Zoe Kravitz, James Tupper and Jeffrey Nordling.",
+        "year": 2017,
+        "img1": "./assets/img/littleLies/littleLies_img.jpeg",
+        "img2": "./assets/img/littleLies/littleLies_img1.webp"
+    },
+    {
+        "name": "Raised By Wolfs",
+        "platform": "HBO",
+        "genre": "Drama",
+        "description": "Two androids have the important task of raising human children on a mysterious virgin planet. When the human colony begins to tear apart due to religious differences, the androids learn that humanity´s beliefs are treacherous.",
+        "year": 2020,
+        "img1": "./assets/img/raised/raised_img.jpeg",
+        "img2": "./assets/img/raised/raised_img1.jpeg"
+    }
+]
